@@ -7,6 +7,10 @@ import { RoughNotation } from "react-rough-notation";
 
 import { useInView } from 'react-intersection-observer';
 
+import hiMe from './assets/hiMe.jpg'
+import merchGif from './assets/gifs/merch_web.gif'
+import luxGif from './assets/gifs/lux_web.gif'
+
 
 
 
@@ -67,7 +71,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
         <p>Welcome to my Portfolio</p>
         </div>
         {/* my pic here */}
-        <img className="me-hello-image" src="src/assets/hiMe.jpg"/>
+        <img className="me-hello-image" src={hiMe}/>
 
       </div>
 
@@ -192,7 +196,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
                   </div>
 
                   <div className="botbar-MW">
-                    <img src="src/assets/gifs/merch_web.gif" />
+                    <img src={luxGif} />
                     < a href="https://github.com/jshaAbls/simple_merch_website" target="_blank" el="noopener noreferrer"className="visit-btn">
   Visit the Website
 </a>
@@ -209,7 +213,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
                   </div>
 
                   <div className="botbar-MW">
-                    <img src="src/assets/gifs/lux_web.gif" />
+                    <img src={merchGif} />
                                         < a href="https://github.com/jshaAbls/luxury-demoweb" target="_blank" el="noopener noreferrer"className="visit-btn">
   Visit the Website
 </a>
