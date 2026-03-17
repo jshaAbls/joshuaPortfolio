@@ -65,6 +65,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
 
   return (
     <>
+    <section>
       <div className="container-1">
         <div className='hi-low-container'>
         <h2>Hi! I'm <span className='gradient-hi'>JOSHUA</span></h2>
@@ -74,8 +75,9 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
         <img className="me-hello-image" src={hiMe}/>
 
       </div>
-
+    </section>
 {/* ------short paragraph about me------- */}
+
 
 <div className="container-2">
 
@@ -99,6 +101,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
 {/* ------short paragraph about me----end--- */}
 
 {/* ---------------ABOUT ME----------------------- */}
+    <section>
       <div className="container-3">
         <h2>About Me</h2>
         <div className="container-AM">
@@ -172,7 +175,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
             </div>                            
 
       </div>
-        
+    </section>
 
 {/* ---------------ABOUT ME---end----------------------- */}
 
@@ -180,6 +183,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
 
 
       {/* -------MY WORKS---------- */}
+    <section>
 
       <div className="container-4">
 
@@ -253,6 +257,10 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
       </div>
 
       {/* -------MY WORKS---end--------- */}
+    </section>
+
+
+    <section>
 
       {/*-----------MY SOCIALS---------------- */}
       <div className="container-5">
@@ -291,6 +299,7 @@ const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.5 });
       </div>
 
       {/*-----------MY SOCIALS---end------------- */}
+    </section>
 
     </>
   )
